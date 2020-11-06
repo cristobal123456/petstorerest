@@ -1,0 +1,2600 @@
+2020-10-23 17:27:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; se esperaba "identifier"
+Syntax error in SQL statement "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; expected "identifier"; SQL statement:
+
+    drop table if exists order CASCADE  [42001-200]
+2020-10-23 17:27:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT,
+        USER_ID BIGINT,
+        PRIMARY KEY (ID)
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT,
+        USER_ID BIGINT,
+        PRIMARY KEY (ID)
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       id bigint not null,
+        pet_id bigint,
+        user_id bigint,
+        primary key (id)
+    ) [42001-200]
+2020-10-23 17:27:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK798tta31a14ek1h5ekgqxpocc 
+       foreign key (pet_id) 
+       references pet [42001-200]
+2020-10-23 17:27:58 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FKt7abetueht6dd1gs9jyl3o4t7 
+       foreign key (user_id) 
+       references user [42001-200]
+2020-10-23 17:29:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; se esperaba "identifier"
+Syntax error in SQL statement "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; expected "identifier"; SQL statement:
+
+    drop table if exists order CASCADE  [42001-200]
+2020-10-23 17:29:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT,
+        USER_ID BIGINT,
+        PRIMARY KEY (ID)
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT,
+        USER_ID BIGINT,
+        PRIMARY KEY (ID)
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       id bigint not null,
+        pet_id bigint,
+        user_id bigint,
+        primary key (id)
+    ) [42001-200]
+2020-10-23 17:29:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK798tta31a14ek1h5ekgqxpocc 
+       foreign key (pet_id) 
+       references pet [42001-200]
+2020-10-23 17:29:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FKt7abetueht6dd1gs9jyl3o4t7 
+       foreign key (user_id) 
+       references user [42001-200]
+2020-10-23 17:32:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; se esperaba "identifier"
+Syntax error in SQL statement "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; expected "identifier"; SQL statement:
+
+    drop table if exists order CASCADE  [42001-200]
+2020-10-23 17:32:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT,
+        USER_ID BIGINT,
+        PRIMARY KEY (ID)
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT,
+        USER_ID BIGINT,
+        PRIMARY KEY (ID)
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       id bigint not null,
+        pet_id bigint,
+        user_id bigint,
+        primary key (id)
+    ) [42001-200]
+2020-10-23 17:32:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK798tta31a14ek1h5ekgqxpocc 
+       foreign key (pet_id) 
+       references pet [42001-200]
+2020-10-23 17:32:41 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FKt7abetueht6dd1gs9jyl3o4t7 
+       foreign key (user_id) 
+       references user [42001-200]
+2020-10-23 17:41:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; se esperaba "identifier"
+Syntax error in SQL statement "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; expected "identifier"; SQL statement:
+
+    drop table if exists order CASCADE  [42001-200]
+2020-10-23 17:41:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT,
+        USER_ID BIGINT,
+        PRIMARY KEY (ID)
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT,
+        USER_ID BIGINT,
+        PRIMARY KEY (ID)
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       id bigint not null,
+        pet_id bigint,
+        user_id bigint,
+        primary key (id)
+    ) [42001-200]
+2020-10-23 17:41:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK798tta31a14ek1h5ekgqxpocc 
+       foreign key (pet_id) 
+       references pet [42001-200]
+2020-10-23 17:41:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FKt7abetueht6dd1gs9jyl3o4t7 
+       foreign key (user_id) 
+       references user [42001-200]
+2020-10-23 17:45:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; se esperaba "identifier"
+Syntax error in SQL statement "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; expected "identifier"; SQL statement:
+
+    drop table if exists order CASCADE  [42001-200]
+2020-10-23 17:45:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT,
+        USER_ID BIGINT,
+        PRIMARY KEY (ID)
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT,
+        USER_ID BIGINT,
+        PRIMARY KEY (ID)
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       id bigint not null,
+        pet_id bigint,
+        user_id bigint,
+        primary key (id)
+    ) [42001-200]
+2020-10-23 17:45:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK798tta31a14ek1h5ekgqxpocc 
+       foreign key (pet_id) 
+       references pet [42001-200]
+2020-10-23 17:45:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FKt7abetueht6dd1gs9jyl3o4t7 
+       foreign key (user_id) 
+       references user [42001-200]
+2020-10-23 17:47:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; se esperaba "identifier"
+Syntax error in SQL statement "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; expected "identifier"; SQL statement:
+
+    drop table if exists order CASCADE  [42001-200]
+2020-10-23 17:47:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT,
+        USER_ID BIGINT,
+        PRIMARY KEY (ID)
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT,
+        USER_ID BIGINT,
+        PRIMARY KEY (ID)
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       id bigint not null,
+        pet_id bigint,
+        user_id bigint,
+        primary key (id)
+    ) [42001-200]
+2020-10-23 17:47:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK798tta31a14ek1h5ekgqxpocc 
+       foreign key (pet_id) 
+       references pet [42001-200]
+2020-10-23 17:47:21 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FKt7abetueht6dd1gs9jyl3o4t7 
+       foreign key (user_id) 
+       references user [42001-200]
+2020-10-23 17:47:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; se esperaba "identifier"
+Syntax error in SQL statement "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; expected "identifier"; SQL statement:
+
+    drop table if exists order CASCADE  [42001-200]
+2020-10-23 17:47:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT,
+        USER_ID BIGINT,
+        PRIMARY KEY (ID)
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT,
+        USER_ID BIGINT,
+        PRIMARY KEY (ID)
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       id bigint not null,
+        pet_id bigint,
+        user_id bigint,
+        primary key (id)
+    ) [42001-200]
+2020-10-23 17:47:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK798tta31a14ek1h5ekgqxpocc 
+       foreign key (pet_id) 
+       references pet [42001-200]
+2020-10-23 17:47:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FKt7abetueht6dd1gs9jyl3o4t7 
+       foreign key (user_id) 
+       references user [42001-200]
+2020-10-23 17:59:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT,
+        USER_ID BIGINT,
+        PRIMARY KEY (ID)
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT,
+        USER_ID BIGINT,
+        PRIMARY KEY (ID)
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       id bigint not null,
+        pet_id bigint,
+        user_id bigint,
+        primary key (id)
+    ) [42001-200]
+2020-10-23 17:59:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK798tta31a14ek1h5ekgqxpocc 
+       foreign key (pet_id) 
+       references pet [42001-200]
+2020-10-23 17:59:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FKt7abetueht6dd1gs9jyl3o4t7 
+       foreign key (user_id) 
+       references user [42001-200]
+2020-10-23 18:00:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT,
+        USER_ID BIGINT,
+        PRIMARY KEY (ID)
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT,
+        USER_ID BIGINT,
+        PRIMARY KEY (ID)
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       id bigint not null,
+        pet_id bigint,
+        user_id bigint,
+        primary key (id)
+    ) [42001-200]
+2020-10-23 18:00:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK798tta31a14ek1h5ekgqxpocc 
+       foreign key (pet_id) 
+       references pet [42001-200]
+2020-10-23 18:00:25 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FKt7abetueht6dd1gs9jyl3o4t7 
+       foreign key (user_id) 
+       references user [42001-200]
+2020-10-23 18:05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT NOT NULL,
+        USER_ID BIGINT NOT NULL,
+        PRIMARY KEY (ID)
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT NOT NULL,
+        USER_ID BIGINT NOT NULL,
+        PRIMARY KEY (ID)
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       id bigint not null,
+        pet_id bigint not null,
+        user_id bigint not null,
+        primary key (id)
+    ) [42001-200]
+2020-10-23 18:05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK798tta31a14ek1h5ekgqxpocc 
+       foreign key (pet_id) 
+       references pet [42001-200]
+2020-10-23 18:05:30 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FKt7abetueht6dd1gs9jyl3o4t7 
+       foreign key (user_id) 
+       references user [42001-200]
+2020-10-23 18:06:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT NOT NULL,
+        USER_ID BIGINT NOT NULL,
+        PRIMARY KEY (ID)
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT NOT NULL,
+        USER_ID BIGINT NOT NULL,
+        PRIMARY KEY (ID)
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       id bigint not null,
+        pet_id bigint not null,
+        user_id bigint not null,
+        primary key (id)
+    ) [42001-200]
+2020-10-23 18:06:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK798tta31a14ek1h5ekgqxpocc 
+       foreign key (pet_id) 
+       references pet [42001-200]
+2020-10-23 18:06:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FKt7abetueht6dd1gs9jyl3o4t7 
+       foreign key (user_id) 
+       references user [42001-200]
+2020-10-23 18:10:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT NOT NULL,
+        USER_ID BIGINT NOT NULL,
+        PRIMARY KEY (ID)
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT NOT NULL,
+        USER_ID BIGINT NOT NULL,
+        PRIMARY KEY (ID)
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       id bigint not null,
+        pet_id bigint not null,
+        user_id bigint not null,
+        primary key (id)
+    ) [42001-200]
+2020-10-23 18:10:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK798tta31a14ek1h5ekgqxpocc 
+       foreign key (pet_id) 
+       references pet [42001-200]
+2020-10-23 18:10:08 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FKt7abetueht6dd1gs9jyl3o4t7 
+       foreign key (user_id) 
+       references user [42001-200]
+2020-10-23 18:13:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT NOT NULL,
+        USER_ID BIGINT NOT NULL,
+        PRIMARY KEY (ID)
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT NOT NULL,
+        USER_ID BIGINT NOT NULL,
+        PRIMARY KEY (ID)
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       id bigint not null,
+        pet_id bigint not null,
+        user_id bigint not null,
+        primary key (id)
+    ) [42001-200]
+2020-10-23 18:13:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK798tta31a14ek1h5ekgqxpocc 
+       foreign key (pet_id) 
+       references pet [42001-200]
+2020-10-23 18:13:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FKt7abetueht6dd1gs9jyl3o4t7 
+       foreign key (user_id) 
+       references user [42001-200]
+2020-10-23 18:13:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE USER_ORDERS 
+       ADD CONSTRAINT FK4ALM6KFSKHUAEYFII0JFSPTAR 
+       FOREIGN KEY (ORDERS_ID) 
+       REFERENCES ORDER[*]"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE USER_ORDERS 
+       ADD CONSTRAINT FK4ALM6KFSKHUAEYFII0JFSPTAR 
+       FOREIGN KEY (ORDERS_ID) 
+       REFERENCES ORDER[*]"; expected "identifier"; SQL statement:
+
+    alter table user_orders 
+       add constraint FK4alm6kfskhuaeyfii0jfsptar 
+       foreign key (orders_id) 
+       references order [42001-200]
+2020-10-23 18:14:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT NOT NULL,
+        USER_ID BIGINT NOT NULL,
+        PRIMARY KEY (ID)
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT NOT NULL,
+        USER_ID BIGINT NOT NULL,
+        PRIMARY KEY (ID)
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       id bigint not null,
+        pet_id bigint not null,
+        user_id bigint not null,
+        primary key (id)
+    ) [42001-200]
+2020-10-23 18:14:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK798tta31a14ek1h5ekgqxpocc 
+       foreign key (pet_id) 
+       references pet [42001-200]
+2020-10-23 18:14:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FKt7abetueht6dd1gs9jyl3o4t7 
+       foreign key (user_id) 
+       references user [42001-200]
+2020-10-23 18:14:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE USER_ORDERS 
+       ADD CONSTRAINT FK4ALM6KFSKHUAEYFII0JFSPTAR 
+       FOREIGN KEY (ORDERS_ID) 
+       REFERENCES ORDER[*]"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE USER_ORDERS 
+       ADD CONSTRAINT FK4ALM6KFSKHUAEYFII0JFSPTAR 
+       FOREIGN KEY (ORDERS_ID) 
+       REFERENCES ORDER[*]"; expected "identifier"; SQL statement:
+
+    alter table user_orders 
+       add constraint FK4alm6kfskhuaeyfii0jfsptar 
+       foreign key (orders_id) 
+       references order [42001-200]
+2020-10-23 18:14:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT NOT NULL,
+        USER_ID BIGINT NOT NULL,
+        PRIMARY KEY (ID)
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT NOT NULL,
+        USER_ID BIGINT NOT NULL,
+        PRIMARY KEY (ID)
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       id bigint not null,
+        pet_id bigint not null,
+        user_id bigint not null,
+        primary key (id)
+    ) [42001-200]
+2020-10-23 18:14:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK798tta31a14ek1h5ekgqxpocc 
+       foreign key (pet_id) 
+       references pet [42001-200]
+2020-10-23 18:14:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FKt7abetueht6dd1gs9jyl3o4t7 
+       foreign key (user_id) 
+       references user [42001-200]
+2020-10-23 18:14:26 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE USER_ORDERS 
+       ADD CONSTRAINT FK4ALM6KFSKHUAEYFII0JFSPTAR 
+       FOREIGN KEY (ORDERS_ID) 
+       REFERENCES ORDER[*]"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE USER_ORDERS 
+       ADD CONSTRAINT FK4ALM6KFSKHUAEYFII0JFSPTAR 
+       FOREIGN KEY (ORDERS_ID) 
+       REFERENCES ORDER[*]"; expected "identifier"; SQL statement:
+
+    alter table user_orders 
+       add constraint FK4alm6kfskhuaeyfii0jfsptar 
+       foreign key (orders_id) 
+       references order [42001-200]
+2020-10-23 18:15:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT NOT NULL,
+        USER_ID BIGINT NOT NULL,
+        PRIMARY KEY (ID)
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT NOT NULL,
+        USER_ID BIGINT NOT NULL,
+        PRIMARY KEY (ID)
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       id bigint not null,
+        pet_id bigint not null,
+        user_id bigint not null,
+        primary key (id)
+    ) [42001-200]
+2020-10-23 18:15:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK798tta31a14ek1h5ekgqxpocc 
+       foreign key (pet_id) 
+       references pet [42001-200]
+2020-10-23 18:15:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FKt7abetueht6dd1gs9jyl3o4t7 
+       foreign key (user_id) 
+       references user [42001-200]
+2020-10-23 18:15:56 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE USER_ORDERS 
+       ADD CONSTRAINT FK4ALM6KFSKHUAEYFII0JFSPTAR 
+       FOREIGN KEY (ORDERS_ID) 
+       REFERENCES ORDER[*]"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE USER_ORDERS 
+       ADD CONSTRAINT FK4ALM6KFSKHUAEYFII0JFSPTAR 
+       FOREIGN KEY (ORDERS_ID) 
+       REFERENCES ORDER[*]"; expected "identifier"; SQL statement:
+
+    alter table user_orders 
+       add constraint FK4alm6kfskhuaeyfii0jfsptar 
+       foreign key (orders_id) 
+       references order [42001-200]
+2020-10-23 18:20:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT NOT NULL,
+        USER_ID BIGINT NOT NULL,
+        PRIMARY KEY (ID)
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT NOT NULL,
+        USER_ID BIGINT NOT NULL,
+        PRIMARY KEY (ID)
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       id bigint not null,
+        pet_id bigint not null,
+        user_id bigint not null,
+        primary key (id)
+    ) [42001-200]
+2020-10-23 18:20:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK798tta31a14ek1h5ekgqxpocc 
+       foreign key (pet_id) 
+       references pet [42001-200]
+2020-10-23 18:20:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FKt7abetueht6dd1gs9jyl3o4t7 
+       foreign key (user_id) 
+       references user [42001-200]
+2020-10-23 18:21:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; se esperaba "identifier"
+Syntax error in SQL statement "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; expected "identifier"; SQL statement:
+
+    drop table if exists order CASCADE  [42001-200]
+2020-10-23 18:21:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT NOT NULL,
+        USER_ID BIGINT NOT NULL,
+        PRIMARY KEY (ID)
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT NOT NULL,
+        USER_ID BIGINT NOT NULL,
+        PRIMARY KEY (ID)
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       id bigint not null,
+        pet_id bigint not null,
+        user_id bigint not null,
+        primary key (id)
+    ) [42001-200]
+2020-10-23 18:21:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK798tta31a14ek1h5ekgqxpocc 
+       foreign key (pet_id) 
+       references pet [42001-200]
+2020-10-23 18:21:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FKt7abetueht6dd1gs9jyl3o4t7 
+       foreign key (user_id) 
+       references user [42001-200]
+2020-10-23 18:22:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; se esperaba "identifier"
+Syntax error in SQL statement "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; expected "identifier"; SQL statement:
+
+    drop table if exists order CASCADE  [42001-200]
+2020-10-23 18:22:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT NOT NULL,
+        USER_ID BIGINT NOT NULL,
+        PRIMARY KEY (ID)
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT NOT NULL,
+        USER_ID BIGINT NOT NULL,
+        PRIMARY KEY (ID)
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       id bigint not null,
+        pet_id bigint not null,
+        user_id bigint not null,
+        primary key (id)
+    ) [42001-200]
+2020-10-23 18:22:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK798tta31a14ek1h5ekgqxpocc 
+       foreign key (pet_id) 
+       references pet [42001-200]
+2020-10-23 18:22:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FKt7abetueht6dd1gs9jyl3o4t7 
+       foreign key (user_id) 
+       references user [42001-200]
+2020-10-23 18:28:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; se esperaba "identifier"
+Syntax error in SQL statement "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; expected "identifier"; SQL statement:
+
+    drop table if exists order CASCADE  [42001-200]
+2020-10-23 18:28:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT NOT NULL,
+        USER_ID BIGINT NOT NULL,
+        PRIMARY KEY (ID)
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT NOT NULL,
+        USER_ID BIGINT NOT NULL,
+        PRIMARY KEY (ID)
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       id bigint not null,
+        pet_id bigint not null,
+        user_id bigint not null,
+        primary key (id)
+    ) [42001-200]
+2020-10-23 18:28:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK798tta31a14ek1h5ekgqxpocc 
+       foreign key (pet_id) 
+       references pet [42001-200]
+2020-10-23 18:28:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FKt7abetueht6dd1gs9jyl3o4t7 
+       foreign key (user_id) 
+       references user [42001-200]
+2020-10-23 18:39:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; se esperaba "identifier"
+Syntax error in SQL statement "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; expected "identifier"; SQL statement:
+
+    drop table if exists order CASCADE  [42001-200]
+2020-10-23 18:39:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT NOT NULL,
+        USER_ID BIGINT NOT NULL,
+        PRIMARY KEY (ID)
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT NOT NULL,
+        USER_ID BIGINT NOT NULL,
+        PRIMARY KEY (ID)
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       id bigint not null,
+        pet_id bigint not null,
+        user_id bigint not null,
+        primary key (id)
+    ) [42001-200]
+2020-10-23 18:39:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK798tta31a14ek1h5ekgqxpocc 
+       foreign key (pet_id) 
+       references pet [42001-200]
+2020-10-23 18:39:22 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FKt7abetueht6dd1gs9jyl3o4t7 
+       foreign key (user_id) 
+       references user [42001-200]
+2020-10-23 18:39:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; se esperaba "identifier"
+Syntax error in SQL statement "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; expected "identifier"; SQL statement:
+
+    drop table if exists order CASCADE  [42001-200]
+2020-10-23 18:39:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT NOT NULL,
+        USER_ID BIGINT NOT NULL,
+        PRIMARY KEY (ID)
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT NOT NULL,
+        USER_ID BIGINT NOT NULL,
+        PRIMARY KEY (ID)
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       id bigint not null,
+        pet_id bigint not null,
+        user_id bigint not null,
+        primary key (id)
+    ) [42001-200]
+2020-10-23 18:39:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK798tta31a14ek1h5ekgqxpocc 
+       foreign key (pet_id) 
+       references pet [42001-200]
+2020-10-23 18:39:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FKt7abetueht6dd1gs9jyl3o4t7 
+       foreign key (user_id) 
+       references user [42001-200]
+2020-10-23 19:01:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; se esperaba "identifier"
+Syntax error in SQL statement "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; expected "identifier"; SQL statement:
+
+    drop table if exists order CASCADE  [42001-200]
+2020-10-23 19:01:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT,
+        USER_ID BIGINT,
+        PRIMARY KEY (ID)
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT,
+        USER_ID BIGINT,
+        PRIMARY KEY (ID)
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       id bigint not null,
+        pet_id bigint,
+        user_id bigint,
+        primary key (id)
+    ) [42001-200]
+2020-10-23 19:01:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK798tta31a14ek1h5ekgqxpocc 
+       foreign key (pet_id) 
+       references pet [42001-200]
+2020-10-23 19:01:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FKt7abetueht6dd1gs9jyl3o4t7 
+       foreign key (user_id) 
+       references user [42001-200]
+2020-10-23 19:05:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; se esperaba "identifier"
+Syntax error in SQL statement "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; expected "identifier"; SQL statement:
+
+    drop table if exists order CASCADE  [42001-200]
+2020-10-23 19:05:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT,
+        USER_ID BIGINT,
+        PRIMARY KEY (ID)
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT,
+        USER_ID BIGINT,
+        PRIMARY KEY (ID)
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       id bigint not null,
+        pet_id bigint,
+        user_id bigint,
+        primary key (id)
+    ) [42001-200]
+2020-10-23 19:05:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK798tta31a14ek1h5ekgqxpocc 
+       foreign key (pet_id) 
+       references pet [42001-200]
+2020-10-23 19:05:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FKt7abetueht6dd1gs9jyl3o4t7 
+       foreign key (user_id) 
+       references user [42001-200]
+2020-10-23 19:09:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; se esperaba "identifier"
+Syntax error in SQL statement "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; expected "identifier"; SQL statement:
+
+    drop table if exists order CASCADE  [42001-200]
+2020-10-23 19:09:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT,
+        USER_ID BIGINT,
+        PRIMARY KEY (ID)
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ID BIGINT NOT NULL,
+        PET_ID BIGINT,
+        USER_ID BIGINT,
+        PRIMARY KEY (ID)
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       id bigint not null,
+        pet_id bigint,
+        user_id bigint,
+        primary key (id)
+    ) [42001-200]
+2020-10-23 19:09:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK798tta31a14ek1h5ekgqxpocc 
+       foreign key (pet_id) 
+       references pet [42001-200]
+2020-10-23 19:09:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FKt7abetueht6dd1gs9jyl3o4t7 
+       foreign key (user_id) 
+       references user [42001-200]
+2020-10-24 09:46:33 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP USER_ORDERS[*]"; se esperaba "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"
+Syntax error in SQL statement "DROP USER_ORDERS[*]"; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+drop USER_ORDERS [42001-200]
+2020-10-24 12:06:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; se esperaba "identifier"
+Syntax error in SQL statement "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; expected "identifier"; SQL statement:
+
+    drop table if exists order CASCADE  [42001-200]
+2020-10-24 12:06:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ORDER_ID INTEGER NOT NULL,
+        PET_ID INTEGER NOT NULL
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ORDER_ID INTEGER NOT NULL,
+        PET_ID INTEGER NOT NULL
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       order_id integer not null,
+        pet_id integer not null
+    ) [42001-200]
+2020-10-24 12:06:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK26TD7Q1M0Q9SGMUP8L38O3O0F 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK26TD7Q1M0Q9SGMUP8L38O3O0F 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK26td7q1m0q9sgmup8l38o3o0f 
+       foreign key (pet_id) 
+       references user [42001-200]
+2020-10-24 12:06:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK19KGPGTN7S6H5MOA4A9X81XDM 
+       FOREIGN KEY (ORDER_ID) 
+       REFERENCES PETDTO"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK19KGPGTN7S6H5MOA4A9X81XDM 
+       FOREIGN KEY (ORDER_ID) 
+       REFERENCES PETDTO"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK19kgpgtn7s6h5moa4a9x81xdm 
+       foreign key (order_id) 
+       references petdto [42001-200]
+2020-10-24 12:12:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; se esperaba "identifier"
+Syntax error in SQL statement "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; expected "identifier"; SQL statement:
+
+    drop table if exists order CASCADE  [42001-200]
+2020-10-24 12:12:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ORDER_ID INTEGER NOT NULL,
+        PET_ID INTEGER NOT NULL
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ORDER_ID INTEGER NOT NULL,
+        PET_ID INTEGER NOT NULL
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       order_id integer not null,
+        pet_id integer not null
+    ) [42001-200]
+2020-10-24 12:12:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK26TD7Q1M0Q9SGMUP8L38O3O0F 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK26TD7Q1M0Q9SGMUP8L38O3O0F 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK26td7q1m0q9sgmup8l38o3o0f 
+       foreign key (pet_id) 
+       references user [42001-200]
+2020-10-24 12:12:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK19KGPGTN7S6H5MOA4A9X81XDM 
+       FOREIGN KEY (ORDER_ID) 
+       REFERENCES PETDTO"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK19KGPGTN7S6H5MOA4A9X81XDM 
+       FOREIGN KEY (ORDER_ID) 
+       REFERENCES PETDTO"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK19kgpgtn7s6h5moa4a9x81xdm 
+       foreign key (order_id) 
+       references petdto [42001-200]
+2020-10-24 12:12:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; se esperaba "identifier"
+Syntax error in SQL statement "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; expected "identifier"; SQL statement:
+
+    drop table if exists order CASCADE  [42001-200]
+2020-10-24 12:12:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ORDER_ID INTEGER NOT NULL,
+        PET_ID INTEGER NOT NULL
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ORDER_ID INTEGER NOT NULL,
+        PET_ID INTEGER NOT NULL
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       order_id integer not null,
+        pet_id integer not null
+    ) [42001-200]
+2020-10-24 12:12:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK26TD7Q1M0Q9SGMUP8L38O3O0F 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK26TD7Q1M0Q9SGMUP8L38O3O0F 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK26td7q1m0q9sgmup8l38o3o0f 
+       foreign key (pet_id) 
+       references user [42001-200]
+2020-10-24 12:12:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK19KGPGTN7S6H5MOA4A9X81XDM 
+       FOREIGN KEY (ORDER_ID) 
+       REFERENCES PETDTO"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK19KGPGTN7S6H5MOA4A9X81XDM 
+       FOREIGN KEY (ORDER_ID) 
+       REFERENCES PETDTO"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK19kgpgtn7s6h5moa4a9x81xdm 
+       foreign key (order_id) 
+       references petdto [42001-200]
+2020-10-24 12:13:30 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CATEGORY[*] SELECT * FROM CATEGORYDTO"; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "CATEGORY[*] SELECT * FROM CATEGORYDTO"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+CATEGORY SELECT * FROM CATEGORYDTO [42001-200]
+2020-10-24 12:14:52 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "CATEGORY[*] PETDTO SELECT * FROM CATEGORYDTO"; se esperaba "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"
+Syntax error in SQL statement "CATEGORY[*] PETDTO SELECT * FROM CATEGORYDTO"; expected "COMMIT, CREATE, CALL, CHECKPOINT, COMMENT"; SQL statement:
+CATEGORY PETDTO SELECT * FROM CATEGORYDTO [42001-200]
+2020-10-24 12:15:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; se esperaba "identifier"
+Syntax error in SQL statement "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; expected "identifier"; SQL statement:
+
+    drop table if exists order CASCADE  [42001-200]
+2020-10-24 12:15:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ORDER_ID INTEGER NOT NULL,
+        PET_ID INTEGER NOT NULL
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ORDER_ID INTEGER NOT NULL,
+        PET_ID INTEGER NOT NULL
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       order_id integer not null,
+        pet_id integer not null
+    ) [42001-200]
+2020-10-24 12:15:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK26TD7Q1M0Q9SGMUP8L38O3O0F 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK26TD7Q1M0Q9SGMUP8L38O3O0F 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK26td7q1m0q9sgmup8l38o3o0f 
+       foreign key (pet_id) 
+       references user [42001-200]
+2020-10-24 12:15:19 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK5XOIBM1M0V7HW4R4OH8EEC2H8 
+       FOREIGN KEY (ORDER_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK5XOIBM1M0V7HW4R4OH8EEC2H8 
+       FOREIGN KEY (ORDER_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK5xoibm1m0v7hw4r4oh8eec2h8 
+       foreign key (order_id) 
+       references pet [42001-200]
+2020-10-24 12:15:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; se esperaba "identifier"
+Syntax error in SQL statement "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; expected "identifier"; SQL statement:
+
+    drop table if exists order CASCADE  [42001-200]
+2020-10-24 12:15:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ORDER_ID INTEGER NOT NULL,
+        PET_ID INTEGER NOT NULL
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ORDER_ID INTEGER NOT NULL,
+        PET_ID INTEGER NOT NULL
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       order_id integer not null,
+        pet_id integer not null
+    ) [42001-200]
+2020-10-24 12:15:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK26TD7Q1M0Q9SGMUP8L38O3O0F 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK26TD7Q1M0Q9SGMUP8L38O3O0F 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK26td7q1m0q9sgmup8l38o3o0f 
+       foreign key (pet_id) 
+       references user [42001-200]
+2020-10-24 12:15:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK5XOIBM1M0V7HW4R4OH8EEC2H8 
+       FOREIGN KEY (ORDER_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK5XOIBM1M0V7HW4R4OH8EEC2H8 
+       FOREIGN KEY (ORDER_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK5xoibm1m0v7hw4r4oh8eec2h8 
+       foreign key (order_id) 
+       references pet [42001-200]
+2020-10-24 12:15:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; se esperaba "identifier"
+Syntax error in SQL statement "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; expected "identifier"; SQL statement:
+
+    drop table if exists order CASCADE  [42001-200]
+2020-10-24 12:15:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ORDER_ID INTEGER NOT NULL,
+        PET_ID INTEGER NOT NULL
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ORDER_ID INTEGER NOT NULL,
+        PET_ID INTEGER NOT NULL
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       order_id integer not null,
+        pet_id integer not null
+    ) [42001-200]
+2020-10-24 12:15:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK26TD7Q1M0Q9SGMUP8L38O3O0F 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK26TD7Q1M0Q9SGMUP8L38O3O0F 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK26td7q1m0q9sgmup8l38o3o0f 
+       foreign key (pet_id) 
+       references user [42001-200]
+2020-10-24 12:15:47 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK5XOIBM1M0V7HW4R4OH8EEC2H8 
+       FOREIGN KEY (ORDER_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK5XOIBM1M0V7HW4R4OH8EEC2H8 
+       FOREIGN KEY (ORDER_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK5xoibm1m0v7hw4r4oh8eec2h8 
+       foreign key (order_id) 
+       references pet [42001-200]
+2020-10-24 12:15:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; se esperaba "identifier"
+Syntax error in SQL statement "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; expected "identifier"; SQL statement:
+
+    drop table if exists order CASCADE  [42001-200]
+2020-10-24 12:15:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ORDER_ID INTEGER NOT NULL,
+        PET_ID INTEGER NOT NULL
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ORDER_ID INTEGER NOT NULL,
+        PET_ID INTEGER NOT NULL
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       order_id integer not null,
+        pet_id integer not null
+    ) [42001-200]
+2020-10-24 12:15:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK26TD7Q1M0Q9SGMUP8L38O3O0F 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK26TD7Q1M0Q9SGMUP8L38O3O0F 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK26td7q1m0q9sgmup8l38o3o0f 
+       foreign key (pet_id) 
+       references user [42001-200]
+2020-10-24 12:15:52 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK5XOIBM1M0V7HW4R4OH8EEC2H8 
+       FOREIGN KEY (ORDER_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK5XOIBM1M0V7HW4R4OH8EEC2H8 
+       FOREIGN KEY (ORDER_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK5xoibm1m0v7hw4r4oh8eec2h8 
+       foreign key (order_id) 
+       references pet [42001-200]
+2020-10-24 12:16:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; se esperaba "identifier"
+Syntax error in SQL statement "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; expected "identifier"; SQL statement:
+
+    drop table if exists order CASCADE  [42001-200]
+2020-10-24 12:16:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ORDER_ID INTEGER NOT NULL,
+        PET_ID INTEGER NOT NULL
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ORDER_ID INTEGER NOT NULL,
+        PET_ID INTEGER NOT NULL
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       order_id integer not null,
+        pet_id integer not null
+    ) [42001-200]
+2020-10-24 12:16:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK26TD7Q1M0Q9SGMUP8L38O3O0F 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK26TD7Q1M0Q9SGMUP8L38O3O0F 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK26td7q1m0q9sgmup8l38o3o0f 
+       foreign key (pet_id) 
+       references user [42001-200]
+2020-10-24 12:16:24 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK5XOIBM1M0V7HW4R4OH8EEC2H8 
+       FOREIGN KEY (ORDER_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK5XOIBM1M0V7HW4R4OH8EEC2H8 
+       FOREIGN KEY (ORDER_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK5xoibm1m0v7hw4r4oh8eec2h8 
+       foreign key (order_id) 
+       references pet [42001-200]
+2020-10-24 12:17:16 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP CATEGORYDTO[*]"; se esperaba "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"
+Syntax error in SQL statement "DROP CATEGORYDTO[*]"; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+drop CATEGORYDTO [42001-200]
+2020-10-24 12:17:38 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "DROP CATEGORYDTO[*]"; se esperaba "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"
+Syntax error in SQL statement "DROP CATEGORYDTO[*]"; expected "TABLE, INDEX, USER, SEQUENCE, CONSTANT, TRIGGER, VIEW, ROLE, ALIAS, SCHEMA, ALL, DOMAIN, TYPE, DATATYPE, AGGREGATE, SYNONYM"; SQL statement:
+drop CATEGORYDTO [42001-200]
+2020-10-24 12:19:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; se esperaba "identifier"
+Syntax error in SQL statement "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; expected "identifier"; SQL statement:
+
+    drop table if exists order CASCADE  [42001-200]
+2020-10-24 12:19:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ORDER_ID INTEGER NOT NULL,
+        PET_ID INTEGER NOT NULL
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ORDER_ID INTEGER NOT NULL,
+        PET_ID INTEGER NOT NULL
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       order_id integer not null,
+        pet_id integer not null
+    ) [42001-200]
+2020-10-24 12:19:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK26TD7Q1M0Q9SGMUP8L38O3O0F 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK26TD7Q1M0Q9SGMUP8L38O3O0F 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK26td7q1m0q9sgmup8l38o3o0f 
+       foreign key (pet_id) 
+       references user [42001-200]
+2020-10-24 12:19:06 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK5XOIBM1M0V7HW4R4OH8EEC2H8 
+       FOREIGN KEY (ORDER_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK5XOIBM1M0V7HW4R4OH8EEC2H8 
+       FOREIGN KEY (ORDER_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK5xoibm1m0v7hw4r4oh8eec2h8 
+       foreign key (order_id) 
+       references pet [42001-200]
+2020-10-24 12:20:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; se esperaba "identifier"
+Syntax error in SQL statement "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; expected "identifier"; SQL statement:
+
+    drop table if exists order CASCADE  [42001-200]
+2020-10-24 12:20:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ORDER_ID INTEGER NOT NULL,
+        PET_ID INTEGER NOT NULL
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ORDER_ID INTEGER NOT NULL,
+        PET_ID INTEGER NOT NULL
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       order_id integer not null,
+        pet_id integer not null
+    ) [42001-200]
+2020-10-24 12:20:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK26TD7Q1M0Q9SGMUP8L38O3O0F 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK26TD7Q1M0Q9SGMUP8L38O3O0F 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK26td7q1m0q9sgmup8l38o3o0f 
+       foreign key (pet_id) 
+       references user [42001-200]
+2020-10-24 12:20:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK5XOIBM1M0V7HW4R4OH8EEC2H8 
+       FOREIGN KEY (ORDER_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK5XOIBM1M0V7HW4R4OH8EEC2H8 
+       FOREIGN KEY (ORDER_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK5xoibm1m0v7hw4r4oh8eec2h8 
+       foreign key (order_id) 
+       references pet [42001-200]
+2020-10-24 12:20:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; se esperaba "identifier"
+Syntax error in SQL statement "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; expected "identifier"; SQL statement:
+
+    drop table if exists order CASCADE  [42001-200]
+2020-10-24 12:20:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ORDER_ID INTEGER NOT NULL,
+        PET_ID INTEGER NOT NULL
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ORDER_ID INTEGER NOT NULL,
+        PET_ID INTEGER NOT NULL
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       order_id integer not null,
+        pet_id integer not null
+    ) [42001-200]
+2020-10-24 12:20:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK26TD7Q1M0Q9SGMUP8L38O3O0F 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK26TD7Q1M0Q9SGMUP8L38O3O0F 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK26td7q1m0q9sgmup8l38o3o0f 
+       foreign key (pet_id) 
+       references user [42001-200]
+2020-10-24 12:20:28 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK5XOIBM1M0V7HW4R4OH8EEC2H8 
+       FOREIGN KEY (ORDER_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK5XOIBM1M0V7HW4R4OH8EEC2H8 
+       FOREIGN KEY (ORDER_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK5xoibm1m0v7hw4r4oh8eec2h8 
+       foreign key (order_id) 
+       references pet [42001-200]
+2020-10-24 12:25:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; se esperaba "identifier"
+Syntax error in SQL statement "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; expected "identifier"; SQL statement:
+
+    drop table if exists order CASCADE  [42001-200]
+2020-10-24 12:25:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       ORDER_ID INTEGER NOT NULL,
+        PET_ID INTEGER NOT NULL
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       ORDER_ID INTEGER NOT NULL,
+        PET_ID INTEGER NOT NULL
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       order_id integer not null,
+        pet_id integer not null
+    ) [42001-200]
+2020-10-24 12:25:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK26TD7Q1M0Q9SGMUP8L38O3O0F 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK26TD7Q1M0Q9SGMUP8L38O3O0F 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK26td7q1m0q9sgmup8l38o3o0f 
+       foreign key (pet_id) 
+       references user [42001-200]
+2020-10-24 12:25:23 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK5XOIBM1M0V7HW4R4OH8EEC2H8 
+       FOREIGN KEY (ORDER_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK5XOIBM1M0V7HW4R4OH8EEC2H8 
+       FOREIGN KEY (ORDER_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK5xoibm1m0v7hw4r4oh8eec2h8 
+       foreign key (order_id) 
+       references pet [42001-200]
+2020-10-24 12:27:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; se esperaba "identifier"
+Syntax error in SQL statement "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; expected "identifier"; SQL statement:
+
+    drop table if exists order CASCADE  [42001-200]
+2020-10-24 12:27:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       PET_ID INTEGER NOT NULL,
+        USER_ID INTEGER NOT NULL
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       PET_ID INTEGER NOT NULL,
+        USER_ID INTEGER NOT NULL
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       pet_id integer not null,
+        user_id integer not null
+    ) [42001-200]
+2020-10-24 12:27:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FKt7abetueht6dd1gs9jyl3o4t7 
+       foreign key (user_id) 
+       references user [42001-200]
+2020-10-24 12:27:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK798tta31a14ek1h5ekgqxpocc 
+       foreign key (pet_id) 
+       references pet [42001-200]
+2020-10-24 12:28:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; se esperaba "identifier"
+Syntax error in SQL statement "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; expected "identifier"; SQL statement:
+
+    drop table if exists order CASCADE  [42001-200]
+2020-10-24 12:28:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       PET_ID INTEGER NOT NULL,
+        USER_ID INTEGER NOT NULL
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       PET_ID INTEGER NOT NULL,
+        USER_ID INTEGER NOT NULL
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       pet_id integer not null,
+        user_id integer not null
+    ) [42001-200]
+2020-10-24 12:28:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FKt7abetueht6dd1gs9jyl3o4t7 
+       foreign key (user_id) 
+       references user [42001-200]
+2020-10-24 12:28:51 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK798tta31a14ek1h5ekgqxpocc 
+       foreign key (pet_id) 
+       references pet [42001-200]
+2020-10-24 12:28:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; se esperaba "identifier"
+Syntax error in SQL statement "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; expected "identifier"; SQL statement:
+
+    drop table if exists order CASCADE  [42001-200]
+2020-10-24 12:28:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       PET_ID INTEGER NOT NULL,
+        USER_ID INTEGER NOT NULL
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       PET_ID INTEGER NOT NULL,
+        USER_ID INTEGER NOT NULL
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       pet_id integer not null,
+        user_id integer not null
+    ) [42001-200]
+2020-10-24 12:28:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FKt7abetueht6dd1gs9jyl3o4t7 
+       foreign key (user_id) 
+       references user [42001-200]
+2020-10-24 12:28:55 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK798tta31a14ek1h5ekgqxpocc 
+       foreign key (pet_id) 
+       references pet [42001-200]
+2020-10-24 12:29:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; se esperaba "identifier"
+Syntax error in SQL statement "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; expected "identifier"; SQL statement:
+
+    drop table if exists order CASCADE  [42001-200]
+2020-10-24 12:29:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       PET_ID INTEGER NOT NULL,
+        USER_ID INTEGER NOT NULL
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       PET_ID INTEGER NOT NULL,
+        USER_ID INTEGER NOT NULL
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       pet_id integer not null,
+        user_id integer not null
+    ) [42001-200]
+2020-10-24 12:29:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FKt7abetueht6dd1gs9jyl3o4t7 
+       foreign key (user_id) 
+       references user [42001-200]
+2020-10-24 12:29:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK798tta31a14ek1h5ekgqxpocc 
+       foreign key (pet_id) 
+       references pet [42001-200]
+2020-10-24 12:29:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; se esperaba "identifier"
+Syntax error in SQL statement "
+    DROP TABLE IF EXISTS ORDER[*] CASCADE "; expected "identifier"; SQL statement:
+
+    drop table if exists order CASCADE  [42001-200]
+2020-10-24 12:29:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    CREATE TABLE ORDER[*] (
+       PET_ID INTEGER NOT NULL,
+        USER_ID INTEGER NOT NULL
+    )"; se esperaba "identifier"
+Syntax error in SQL statement "
+    CREATE TABLE ORDER[*] (
+       PET_ID INTEGER NOT NULL,
+        USER_ID INTEGER NOT NULL
+    )"; expected "identifier"; SQL statement:
+
+    create table order (
+       pet_id integer not null,
+        user_id integer not null
+    ) [42001-200]
+2020-10-24 12:29:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FKT7ABETUEHT6DD1GS9JYL3O4T7 
+       FOREIGN KEY (USER_ID) 
+       REFERENCES USER"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FKt7abetueht6dd1gs9jyl3o4t7 
+       foreign key (user_id) 
+       references user [42001-200]
+2020-10-24 12:29:57 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Error de Sintaxis en sentencia SQL "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; se esperaba "identifier"
+Syntax error in SQL statement "
+    ALTER TABLE ORDER[*] 
+       ADD CONSTRAINT FK798TTA31A14EK1H5EKGQXPOCC 
+       FOREIGN KEY (PET_ID) 
+       REFERENCES PET"; expected "identifier"; SQL statement:
+
+    alter table order 
+       add constraint FK798tta31a14ek1h5ekgqxpocc 
+       foreign key (pet_id) 
+       references pet [42001-200]
+2020-10-24 12:31:04 database: wrong user or password; user: "SA"
+org.h2.message.DbException: Nombre de usuario ó password incorrecto
+Wrong user name or password [28000-200]
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.engine.Engine.openSession(Engine.java:131)
+	at org.h2.engine.Engine.openSession(Engine.java:192)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:171)
+	at org.h2.engine.Engine.createSession(Engine.java:166)
+	at org.h2.engine.Engine.createSession(Engine.java:29)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:340)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:173)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:152)
+	at org.h2.Driver.connect(Driver.java:69)
+	at org.h2.util.JdbcUtils.getConnection(JdbcUtils.java:309)
+	at org.h2.util.JdbcUtils.getConnection(JdbcUtils.java:289)
+	at org.h2.server.web.WebServer.getConnection(WebServer.java:785)
+	at org.h2.server.web.WebApp.login(WebApp.java:1008)
+	at org.h2.server.web.WebApp.process(WebApp.java:223)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:173)
+	at org.h2.server.web.WebServlet.doGet(WebServlet.java:129)
+	at org.h2.server.web.WebServlet.doPost(WebServlet.java:166)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Nombre de usuario ó password incorrecto
+Wrong user name or password [28000-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:461)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	... 55 more
+2020-10-24 12:31:10 database: wrong user or password; user: "SA"
+org.h2.message.DbException: Nombre de usuario ó password incorrecto
+Wrong user name or password [28000-200]
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.engine.Engine.openSession(Engine.java:131)
+	at org.h2.engine.Engine.openSession(Engine.java:192)
+	at org.h2.engine.Engine.createSessionAndValidate(Engine.java:171)
+	at org.h2.engine.Engine.createSession(Engine.java:166)
+	at org.h2.engine.Engine.createSession(Engine.java:29)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:340)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:173)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:152)
+	at org.h2.Driver.connect(Driver.java:69)
+	at org.h2.util.JdbcUtils.getConnection(JdbcUtils.java:309)
+	at org.h2.util.JdbcUtils.getConnection(JdbcUtils.java:289)
+	at org.h2.server.web.WebServer.getConnection(WebServer.java:785)
+	at org.h2.server.web.WebApp.login(WebApp.java:1008)
+	at org.h2.server.web.WebApp.process(WebApp.java:223)
+	at org.h2.server.web.WebApp.processRequest(WebApp.java:173)
+	at org.h2.server.web.WebServlet.doGet(WebServlet.java:129)
+	at org.h2.server.web.WebServlet.doPost(WebServlet.java:166)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Nombre de usuario ó password incorrecto
+Wrong user name or password [28000-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:461)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	... 55 more
